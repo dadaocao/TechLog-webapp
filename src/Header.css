@@ -1,0 +1,36 @@
+/*Below CSS adapted from https://css.gg under the MIT License*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu.css');
+
+
+.button__icon {
+    display: inline-block;
+
+    position: relative;
+    border: none;
+    padding-bottom: 1.5rem;
+
+    color: black;
+    background-color: var(--bg-banner-color);
+
+    font: inherit;
+    text-decoration: underline;
+}
+
+.skip {
+    position: absolute;
+    justify-self: center;
+
+    color: rgb(0, 0, 0, 0);
+    font-size: 10px;
+}
+
+.skip:focus {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 30%;
+    z-index: 999;
+
+    color: blue;
+    font-size: 10px;
+}

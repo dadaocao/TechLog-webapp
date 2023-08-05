@@ -1,0 +1,133 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card__button {
+    margin: auto;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    border: 1px solid rgb(0, 0, 0, 0) !important;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__pic {
+    margin: 0;
+}
+
+.card__link {
+    color: blue;
+}
+
+.card__text {
+    margin-bottom: 0;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.sde__links {
+    list-style: none;
+}
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.button__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-email__error {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form-confirm__error {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form-confirm__mismatch {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form-email--invalid .form-email__error {
+    display: initial;
+}
+
+@media (min-width: 44rem) {
+    .cards {
+        padding: 0;
+        margin: 0;
+    }
+
+    .card {
+        /*grid-column: span 4;*/
+        grid-column: span 4 / span 12;
+        display: flex;
+        flex-direction: column;
+        max-width: 50rem;
+        align-items: center;
+    }
+}

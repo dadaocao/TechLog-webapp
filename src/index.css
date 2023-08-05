@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: rgb(222, 226, 228);
+    --bg-banner-color: rgb(150, 170, 161);
+    --bg-banner-selector-color: #C0FFEE;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+#root {
+    height: 100%;
+}

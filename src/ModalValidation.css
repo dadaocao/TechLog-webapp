@@ -1,0 +1,72 @@
+/*Below CSS adapted from https://css.gg under the MIT License*/
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu.css');
+
+.modal::backdrop {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    justify-self: center;
+    align-self: center;
+}
+
+.register-confirm__error,
+.register-email__error {
+    font-style: italic;
+    color: red;
+}
+
+.button__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit-button {
+    grid-area: left;
+    width: 30%;
+    padding: 0.5rem;
+
+    border-radius: 20px;
+    background-color: rgb(192, 136, 99);
+}
+
+.cancel-button {
+    grid-area: right;
+    width: 30%;
+    padding: 0.5rem;
+
+    border-radius: 20px;
+    background-color: rgb(107, 138, 139);
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-email__error {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form-confirm__error {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form-confirm__mismatch {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.form-email--invalid .form-email__error {
+    display: initial;
+}

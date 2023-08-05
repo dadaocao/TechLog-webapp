@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.home__title {
+    text-align: center;
+}
+
+.home__content {
+    padding: 1rem;
+    margin: 1rem;
+
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+

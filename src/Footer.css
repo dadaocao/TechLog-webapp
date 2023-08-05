@@ -1,0 +1,36 @@
+.footer {
+display: grid;
+    grid-template-areas:
+        "footer__title footer__social";
+
+    background-color: var(--bg-banner-color);
+}
+
+.footer__social-list{
+    grid-area: footer__social;
+    display: inline-grid;
+
+    row-gap: 0.5rem;
+    margin-right: auto;
+
+    list-style: none;
+    font-size: 1rem;
+}
+
+.footer__social-link{
+    color: black;
+}
+
+.footer__social-link:hover {
+     color: white;
+ }
+
+.footer__title {
+    grid-area: footer__title;
+
+    margin-left: 2rem;
+    align-self: center;
+
+    font-size: 1rem;
+    font-style: italic;
+}

@@ -1,0 +1,10 @@
+.main {
+    margin: 1rem;
+}
+
+@media (min-width: 44rem) {
+    .main {
+        margin: 4rem 3rem 0 3rem;
+    }
+
+}
