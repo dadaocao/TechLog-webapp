@@ -1,6 +1,7 @@
 import './Home.css';
 
 import Carousel from './Carousel';
+import DemoApp from "./DemoApp";
 
 function Home() {
 
@@ -50,6 +51,7 @@ function Home() {
             </p>
 
             <Carousel></Carousel>
+            <DemoApp></DemoApp>
 
 
         </div>
