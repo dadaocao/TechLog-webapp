@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TechLog-webapp/static/css/main.5e5f912a.css",
-    "main.js": "/TechLog-webapp/static/js/main.8a9931db.js",
+    "main.js": "/TechLog-webapp/static/js/main.f89714e0.js",
     "static/js/787.bd02f72e.chunk.js": "/TechLog-webapp/static/js/787.bd02f72e.chunk.js",
     "static/media/image8.jpeg": "/TechLog-webapp/static/media/image8.49736664e59a2cc86aa5.jpeg",
     "static/media/image3.jpeg": "/TechLog-webapp/static/media/image3.4adb5a449929f43303dc.jpeg",
@@ -15,11 +15,11 @@
     "static/media/image11.jpeg": "/TechLog-webapp/static/media/image11.24ebe3ffbfa8386eb9bd.jpeg",
     "index.html": "/TechLog-webapp/index.html",
     "main.5e5f912a.css.map": "/TechLog-webapp/static/css/main.5e5f912a.css.map",
-    "main.8a9931db.js.map": "/TechLog-webapp/static/js/main.8a9931db.js.map",
+    "main.f89714e0.js.map": "/TechLog-webapp/static/js/main.f89714e0.js.map",
     "787.bd02f72e.chunk.js.map": "/TechLog-webapp/static/js/787.bd02f72e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e5f912a.css",
-    "static/js/main.8a9931db.js"
+    "static/js/main.f89714e0.js"
   ]
 }

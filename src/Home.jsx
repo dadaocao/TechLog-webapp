@@ -11,6 +11,8 @@ function Home() {
             <h2 className="home__title">
                 Why did I shift into tech field?
             </h2>
+            <p className="home__content">Click <a href="https://dadaocao.github.io/">here</a> to try a new feature!</p>
+
 
             <p className="home__content">
                 I am currently an Information Systems Graduate Student. But for the past five years, I have been an
@@ -49,6 +51,8 @@ function Home() {
                 <p></p>
                 <div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;———Jen Krieger (VP @ GitHub)</div>
             </p>
+
+
 
             <Carousel></Carousel>
             <DemoApp></DemoApp>
