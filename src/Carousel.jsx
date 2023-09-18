@@ -1,24 +1,27 @@
 import {useState} from 'react';
 
-import image1 from './image1.jpeg';
+// import image1 from './image1.jpeg';
 import image2 from './image2.jpeg';
 import image3 from './image3.jpeg';
 import image4 from './image4.jpeg';
-import image5 from './image11.jpeg';
+import image5 from './image5.jpeg';
+import image6 from './image6.jpeg';
+import image7 from './image7.jpeg';
 
 import './Carousel.css';
 
 function Carousel() {
     const [activeIndex, setActiveIndex] = useState(0);
 
-    const slides = [image1, image2, image3, image4, image5];
+    const slides = [image2, image3, image4, image5, image6, image7];
 
     const alt = [
-        "This is a photo displaying an macbook",
-        "This is a photo displaying a man in front of three screens",
-        "This is a photo displaying a computer and a notebook",
-        "This is a photo displaying a gorgeous glass ball",
-        "This is a photo displaying a banana (great symbol of amazon)"
+        "This is my first Java Spring Boot project",
+        "This is backend of the project",
+        "This is front desk demonstration, Only email-authenticated users can sign in!",
+        "Welcome to my Dadaocao Travel Website",
+        "This is my first Python project using Django framework",
+        "It includes a translator(*^▽^*)",
     ];
 
 
@@ -39,7 +42,7 @@ function Carousel() {
                     <div
                         key={index}
                         className={`carousel-item ${index === activeIndex ? 'active' : ''}`}
-                        style={{width: "100%"}}>
+                        style={{width: "58%"}}>
                         <img src={slide} alt={alt[index]} style={{width: "100%", height: "auto"}}/>
                     </div>
                 ))}

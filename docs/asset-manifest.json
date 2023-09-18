@@ -1,25 +1,23 @@
 {
   "files": {
     "main.css": "/TechLog-webapp/static/css/main.5e5f912a.css",
-    "main.js": "/TechLog-webapp/static/js/main.f89714e0.js",
+    "main.js": "/TechLog-webapp/static/js/main.424a71df.js",
     "static/js/787.bd02f72e.chunk.js": "/TechLog-webapp/static/js/787.bd02f72e.chunk.js",
-    "static/media/image8.jpeg": "/TechLog-webapp/static/media/image8.49736664e59a2cc86aa5.jpeg",
-    "static/media/image3.jpeg": "/TechLog-webapp/static/media/image3.4adb5a449929f43303dc.jpeg",
-    "static/media/image1.jpeg": "/TechLog-webapp/static/media/image1.70af6fb402eba483e531.jpeg",
-    "static/media/image2.jpeg": "/TechLog-webapp/static/media/image2.62f73ff7843227a95b4f.jpeg",
-    "static/media/image9.jpeg": "/TechLog-webapp/static/media/image9.840e342ef2078e1fa08d.jpeg",
-    "static/media/image7.jpeg": "/TechLog-webapp/static/media/image7.fe2292ec6123b359fe9a.jpeg",
-    "static/media/image5.jpeg": "/TechLog-webapp/static/media/image5.b36497414296aea193ad.jpeg",
-    "static/media/image4.jpeg": "/TechLog-webapp/static/media/image4.5fe1b544702daca42c23.jpeg",
-    "static/media/image6.jpeg": "/TechLog-webapp/static/media/image6.fa17409b3ae69fe1eb18.jpeg",
-    "static/media/image11.jpeg": "/TechLog-webapp/static/media/image11.24ebe3ffbfa8386eb9bd.jpeg",
+    "static/media/image9.jpeg": "/TechLog-webapp/static/media/image9.49736664e59a2cc86aa5.jpeg",
+    "static/media/image8.jpeg": "/TechLog-webapp/static/media/image8.fe2292ec6123b359fe9a.jpeg",
+    "static/media/image5.jpeg": "/TechLog-webapp/static/media/image5.2d20bda670e83967f5cb.jpeg",
+    "static/media/image6.jpeg": "/TechLog-webapp/static/media/image6.5a304c58386e9906c5e4.jpeg",
+    "static/media/image4.jpeg": "/TechLog-webapp/static/media/image4.4ce2aa8b2ab2ebc32cd1.jpeg",
+    "static/media/image7.jpeg": "/TechLog-webapp/static/media/image7.47ba6cc1acbfad675bb6.jpeg",
+    "static/media/image2.jpeg": "/TechLog-webapp/static/media/image2.575791178834f04a765c.jpeg",
+    "static/media/image3.jpeg": "/TechLog-webapp/static/media/image3.db05c1a044bd69f70ab4.jpeg",
     "index.html": "/TechLog-webapp/index.html",
     "main.5e5f912a.css.map": "/TechLog-webapp/static/css/main.5e5f912a.css.map",
-    "main.f89714e0.js.map": "/TechLog-webapp/static/js/main.f89714e0.js.map",
+    "main.424a71df.js.map": "/TechLog-webapp/static/js/main.424a71df.js.map",
     "787.bd02f72e.chunk.js.map": "/TechLog-webapp/static/js/787.bd02f72e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e5f912a.css",
-    "static/js/main.f89714e0.js"
+    "static/js/main.424a71df.js"
   ]
 }

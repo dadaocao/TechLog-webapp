@@ -2,7 +2,7 @@ import GlobalNav from './GlobalNav';
 
 import './Header.css';
 
-import image6 from './image6.jpeg';
+import image1 from './image1.jpeg';
 
 function Header({setPage}) {
 
@@ -23,7 +23,7 @@ function Header({setPage}) {
                 setPage('Home');
             }}>
                 <img
-                    src={image6}
+                    src={image1}
                     width="100px"
                     height="100px"
                     className="header__logo"
