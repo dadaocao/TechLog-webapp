@@ -1,3 +1,19 @@
+• Designed and created a React-based Single Page Application from scratch in a Hackathon
+
+• Developed, tested, and built the web app leveraging React, combining HTML, CSS, JavaScript,
+and JSX
+
+• Created a Django-based blog module in Python for article management, including publishing,
+editing, deletion, and category/tag features
+
+• Continuously maintained the application, conducting version control through Git to track changes,
+collaborated with team members
+
+• Configured homepage feature in JSON, deployed the app on GitHub Pages
+(https://dadaocao.github.io/TechLog-webapp/)
+
+![Demo](DemoTechLog.mov)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
