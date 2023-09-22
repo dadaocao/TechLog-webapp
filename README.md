@@ -12,7 +12,7 @@ collaborated with team members
 • Configured homepage feature in JSON, deployed the app on GitHub Pages
 (https://dadaocao.github.io/TechLog-webapp/)
 
-![Demo](DemoAndroidPhone.gif)
+![Demo](DemoTechLog.gif)
 
 # Getting Started with Create React App
 
