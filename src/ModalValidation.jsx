@@ -84,7 +84,7 @@ function ModalValidation() {
                                 type="button"
                                 aria-label="click to cancel"
                                 onClick={() => dialogRef.current.close()}>
-                            cancel！
+                            Cancel
                         </button>
           </span>
                 </form>

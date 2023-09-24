@@ -1,5 +1,5 @@
-import image1 from './image1.jpeg';
-import image2 from './image2.jpeg';
+import image9 from './image9.jpeg';
+import image10 from './image10.jpeg';
 
 import './About.css';
 import './Main.css';
@@ -10,7 +10,7 @@ function About({setPage}) {
     return (
         <div className="panels">
             <div className="panel1">
-                <img className="panel__pic1" src={image1} alt="this is a photo of an office desk" width="200px"
+                <img className="panel__pic1" src={image9} alt="this is a photo of an office desk" width="200px"
                      height="200px"></img>
                 <div className="panel__text1">
                     <h2 className="panel__title">Software Engineering</h2>
@@ -28,7 +28,7 @@ function About({setPage}) {
 
                 <li className="about__links">
                     <p>
-                        Click
+                        Click to know more about
                         <a
                             className="about__link"
                             href={"/sde.html"}
@@ -37,15 +37,15 @@ function About({setPage}) {
                                 setPage('SDE');
                             }}
                         >
-                            {` ${"HERE"} `}
+                            {` ${"Software Engineering"} `}
                         </a>
-                        to know more about Software Engineering
+                        .
                     </p>
                 </li>
             </div>
 
             <div className="panel2">
-                <img className="panel__pic2" src={image2} alt="this is a photo of a man surrounding by 3 screens"
+                <img className="panel__pic2" src={image10} alt="this is a photo of a man surrounding by 3 screens"
                      width="200px"
                      height="200px"></img>
                 <div className="panel__text2">

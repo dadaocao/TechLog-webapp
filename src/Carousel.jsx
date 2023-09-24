@@ -42,7 +42,7 @@ function Carousel() {
                     <div
                         key={index}
                         className={`carousel-item ${index === activeIndex ? 'active' : ''}`}
-                        style={{width: "58%"}}>
+                        style={{width: "70%", height:"80%"}}>
                         <img src={slide} alt={alt[index]} style={{width: "100%", height: "auto"}}/>
                     </div>
                 ))}

@@ -11,7 +11,7 @@ function Home() {
             <h2 className="home__title">
                 Why did I shift into tech field?
             </h2>
-            <p className="home__content">Click <a href="https://dadaocao.github.io/">here</a> to try a new feature!</p>
+            <p className="home__content">My new <a href="https://dadaocao.github.io/">Hexo</a> Blog!</p>
 
 
             <p className="home__content">
